@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-size: 16px;
+}
+.Step2Of3{
+    font-weight: bold;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,th,td{
+    border: 2px solid black;
+    
+}
+
+th{
+    align-items: center;
+    column-span: "2";
+   
+}
+td{
+    width: 50%;
+}
+.CustDetails{
+    display:inline-grid;
+    row-gap: 3px;
+}
+.CustDetailsInput{
+    width:300px;
+    height:20px;
+}
+.logoAndPolicy{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.StepDiv{
+    margin-left: 10px;
+    margin-top: 11px;
+}
+.policyForm{
+    display: grid;
+    grid-template-columns: auto;
+    margin-left:60px ;
+    margin-right: 80px;
+
+}
+.Description-class{
+    line-height: 17px;
+}
+.Description{
+    margin-bottom: 20px;
+}
+.PolicyInfHeader{
+    font-weight: bold;
+    display: grid;
+    font-size: 17px;
+}
+
+.provision{
+    margin-top: 20px;
+    margin-bottom: 200px;
+}

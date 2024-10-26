@@ -1,0 +1,15 @@
+.container-con{
+    width:50%;
+    border: 1px solid black;
+    display: inline-block;
+    line-height: 15px;
+    margin-top: 40px;
+    
+}
+span{
+    font-size:smaller; 
+
+}
+b{
+    font-size: small;
+}
